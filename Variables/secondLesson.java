@@ -1,4 +1,4 @@
-package Lesson2;
+package Variables;
 
 public class secondLesson {
     public static void main(String[] args) {
@@ -36,6 +36,10 @@ public class secondLesson {
         double d2 = 1245.5346;
         System.out.println("\nFloat: \n" + f1 + "\n" + f2 +
                 "\n\nDouble: \n" + d1 + "\n" + d2);
+
+        boolean bool = true;
+        boolean bool2 = false;
+        System.out.println("\nBoolean: \n" + bool + "\n" + bool2);
 
         char c1 = 'a';
         char c2 = 'B';
