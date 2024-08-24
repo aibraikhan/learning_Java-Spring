@@ -1,4 +1,4 @@
-package Operations;
+package Lesson3_Operations;
 
 public class thirdLesson {
     public static void main(String[] args) {
