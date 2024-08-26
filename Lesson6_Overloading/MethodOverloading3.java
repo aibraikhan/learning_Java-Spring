@@ -44,6 +44,8 @@ class StudentTest{
         System.out.println("ID: " + student2.id + "\nName: " + student2.name + "\nLastName: " + student2.lastName + "\n");
 
         MethodOverloading3 student3 = new MethodOverloading3();
+        student3.id = 3;
+        student3.name = "Daryl";
         System.out.println("ID: " + student3.id + "\nName: " + student3.name + "\n");
     }
 
