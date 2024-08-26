@@ -10,14 +10,21 @@ public class BankAccount {
     }
 
     public void addMoney(int add) {
+        System.out.println("Balance before replenishment of the account: " + balance);
         balance += add;
+        System.out.println("Balance after replenishment of the account: " + balance + "\n");
     }
 
     public void takeMoney(int take) {
-        if (take <= balance)
+
+        if (take <= balance) {
+            System.out.println("Balance before money withdrawal: " + balance);
             balance -= take;
+            System.out.println("Balance after money withdrawal: " + balance + "\n");
+        }
         else
-            System.out.println("There are not enough funds in the balance: " + balance);
+            System.out.println("There are not enough funds in the balance: " + balance + "\n");
+
     }
 
     public void info() {
