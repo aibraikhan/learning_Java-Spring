@@ -1,9 +1,9 @@
-package Lesson10_ImportAndImportStatic.p1.p2.p3.p4;
+package Lesson10_ImportAndImportStatic.p4;
 
 import Lesson10_ImportAndImportStatic.p1.*;
 import static Lesson10_ImportAndImportStatic.p1.p2.B.*;
 import Lesson10_ImportAndImportStatic.p1.p2.p3.*;
-import Lesson10_ImportAndImportStatic.p1.p2.p3.p4.p5.*;
+import Lesson10_ImportAndImportStatic.p4.p5.*;
 
 
 public class D {
