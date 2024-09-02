@@ -6,7 +6,7 @@ public class Car {
     public String engine;
     public int doors;
 
-    Car(String color, String engine, int doors) {
+    public Car(String color, String engine, int doors) {
         this.color = color;
         this.engine = engine;
         this.doors = doors;
@@ -20,10 +20,9 @@ class CarTest {
     }
 
     public static void swapColors(Car c1, Car c2) {
-        Car c3 = new Car("null", "null", 0);
-        c3.color = c1.color;
+        String color = c1.color;
         c1.color = c2.color;
-        c2.color = c3.color;
+        c2.color = color;
     }
 
     public static void main(String[] args) {
