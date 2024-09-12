@@ -7,18 +7,18 @@ public class ShowArray {
             System.out.print("{");
             for (int j = 0; j < arr[i].length; j++) {
                 System.out.print(arr[i][j]);
-                if (j < arr[i].length-1) {
+                if (j < arr[i].length - 1) {
                     System.out.print(", ");
                 }
             }
             System.out.print("}");
-            if (i < arr.length-1) {
+            if (i < arr.length - 1) {
                 System.out.print(", ");
             }
-            if (i < arr.length-1) {
-                System.out.print("{" + arr[i+1][0] + "}");
+            if (i < arr.length - 1) {
+                System.out.print("{" + arr[i + 1][0] + "}");
             }
-            if (i < arr.length-1) {
+            if (i < arr.length - 1) {
                 System.out.print(", ");
             }
 
